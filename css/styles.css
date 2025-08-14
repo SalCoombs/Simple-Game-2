@@ -1,0 +1,60 @@
+:root {
+  --background-color-alt: rgb(29, 29, 29);
+  --background-color: rgb(199, 199, 199);
+  --main-color: rgb(0, 255, 0);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--background-color);
+}
+
+nav {
+  text-align: center;
+  color: var(--background-color-alt);
+}
+
+.background {
+  width: 300px;
+  height: 400px;
+  background-color: var(--background-color-alt);
+  color: var(--main-color);
+  padding: 2px;
+  align-items: flex-start;
+}
+
+.text_display {
+  font-family: monospace;
+  white-space: pre;
+  color: var(--main-color);
+}
+
+.container {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  justify-content: center;
+}
+
+.flex--bottom {
+  flex-direction: column;
+  justify-content: end;
+}
+
+.input_bar {
+  background-color: inherit;
+  width: 100%;
+  resize: none;
+  padding: 1px;
+  color: var(--main-color);
+}
