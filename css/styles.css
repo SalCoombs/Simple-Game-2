@@ -12,6 +12,9 @@
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav {
@@ -24,18 +27,13 @@ nav {
   height: 400px;
   background-color: var(--background-color-alt);
   color: var(--main-color);
-  padding: 2px;
-  align-items: flex-start;
+  padding: 4px 8px;
 }
 
 .text_display {
   font-family: monospace;
   white-space: pre;
   color: var(--main-color);
-}
-
-.container {
-  padding: 10px;
 }
 
 .flex {
@@ -49,12 +47,4 @@ nav {
 .flex--bottom {
   flex-direction: column;
   justify-content: end;
-}
-
-.input_bar {
-  background-color: inherit;
-  width: 100%;
-  resize: none;
-  padding: 1px;
-  color: var(--main-color);
 }
