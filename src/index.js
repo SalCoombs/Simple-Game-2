@@ -1,3 +1,9 @@
-window.onload = startGame;
+import EventSystem from "./eventSystem.js";
+import HtmlHandler from "./htmlHandler.js";
 
-function startGame() {}
+window.onload = initGame;
+
+function initGame() {
+  const eventSystem = new EventSystem();
+  const htmlHandler = new HtmlHandler(eventSystem);
+}
