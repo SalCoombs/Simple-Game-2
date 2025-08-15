@@ -2,6 +2,7 @@ export const eventTypes = Object.freeze({
   DISPLAY_TEXT: "display-text",
   KEY_PRESSED: "key-pressed",
   PLAYER_ATTACK: "player-attack",
+  SPAWN_ENEMY: "spawn-enemy",
   // ATTACK: "attack",
   // J_PRESSED: "j-pressed",
 });
